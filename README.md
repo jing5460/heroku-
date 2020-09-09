@@ -40,7 +40,7 @@ V2Ray 将在部署时自动安装最新版本。
 
 
 ## CF-Workers配置代码
-[代码地址](http://suo.im/5xpAof)
+[代码地址](http://suo.im/62eEfy)
 
 
 
