@@ -39,12 +39,13 @@ V2Ray 将在部署时自动安装最新版本。
 
 
 
-## [CF 代码](http://suo.im/5xpAof)
+## CF-Workers配置代码
+[代码地址](http://suo.im/5xpAof)
 
 
 
 ## 筛选IP
-   [筛选IP地址](http://suo.im/6vzi4g)
+[筛选IP地址](http://suo.im/6vzi4g)
 
 
 
