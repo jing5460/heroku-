@@ -39,28 +39,18 @@ V2Ray 将在部署时自动安装最新版本。
 
 
 
-## 
-[筛选IP地址](http://suo.im/6vzi4g)
+## 筛选IP
+   [筛选IP地址](http://suo.im/6vzi4g)
 
 
 ## [代码]
 addEventListener(
-
-  "fetch",event => {
-
-     let url=new URL(event.request.url);
-     
-     url.hostname="你的heroku域名.herokuapp.com";
-     
-     let request=new Request(url,event.request);
-     
-     event. respondWith(
-     
-       fetch(request)
-       
-     )
-     
-  }
-  
+ "fetch",event => {
+   let url=new URL(event.request.url);
+   url.hostname="你的heroku域名.herokuapp.com";
+   let request=new Request(url,event.request);
+   event. respondWith(
+    fetch(request)
+   )
+ }
 )
-
